@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+    <script>
+        let a = new String("kaperuzo");
+        console.log(a)
+
+        const b = {}
+        console.log(b);
+
+        const c = new Object();
+        console.log(c);
+
+        const David = {
+         nombre:"David",
+         apellido:"Vargas",
+         edad:"9",
+         aficiones:["jugar fornite","dibujar"],
+         mamawebo:false,
+
+         saludo:function(){
+          console.log("hola mamawebo")
+         },
+         decirMiNombre:function (){
+          console.log(`hola me llamo ${this.nombre} ${this.apellido} y tengo ${this.edad} años.`)
+          },
+        }
+
+        console.log(David["nombre"]);
+        console.log(David["apellido"]);
+        David.decirMiNombre();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+    <h1>Objetos</h1>
+</body>
+</html>
